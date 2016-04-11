@@ -1,0 +1,458 @@
+
+.henggoudingbu{
+  width:100%;
+  height:11.6%;
+  position: fixed;
+  left: 0;
+  top:0;
+  background: #eb4d7e;
+}
+.touxiang{
+  width: 10%;
+  height: 46%;
+  position: absolute;
+  left: 4.6%;
+  top:40%;
+  border-radius: 50%;
+}
+.touxiang img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.henggoudingbu .henggou{
+  position: absolute;
+  left: 17%;
+  top:38%;
+  font-size: 0.88rem;
+  color: #fff;
+}
+.henggoudingbu .muying{
+  position: absolute;
+  left: 17%;
+  top:63%;
+  font-size: 0.3rem;
+  color: #fff;
+}
+.henggoudingbu .yue{
+  width: 14.6%;
+  height: 26.3%;
+  position: absolute;
+  right: 4.6%;
+  top:43%;
+  font-size: 0.68rem;
+  color: #fff;
+  text-align: center;
+}
+.henggoudingbu .xianjin{
+  width: 14.6%;
+  height: 26.3%;
+  position: absolute;
+  right:4.6% ;
+  top:65.7%;
+  font-size: 0.68rem;
+  color: #fff;
+  text-align: center;
+}
+.henggoukong{
+  height:11.6%;
+  width: 100%;
+}
+.henggoulunbo{
+  width: 100%;
+  height:28.4%;
+  position: relative;
+}
+.henggoulunbo .lunbotus{
+  width: 100%;
+  height:100%;
+}
+.henggoulunbo .lunbotu{
+  width: 100%;
+  height:100%;
+  position: absolute;
+  top:0px;
+  left:0px;
+  float: left;
+  z-index: 2;
+}
+.henggoulunbo .lunbotu img{
+  width: 100%;
+  height: 100%;
+}
+.henggoulunbo .annius{
+  width:17%;
+  height: 8.5%;
+  position: absolute;
+  left:47%;
+  top:92.8%;
+  z-index:10;
+}
+.henggoulunbo .anniu{
+  float: left;
+  width:10%;
+  height: 22%;
+  background: #000;
+  margin-right: 10%;
+  border-radius: 50%;
+}
+.henggousousuo{
+  width: 100%;
+  height: 8%;
+  background: #f5f5f5;
+  position: relative;
+}
+.henggousousuo .wenbenkuang{
+  width:60.1%;
+  height:58.5%;
+  position: absolute;
+  left: 3.8%;
+  top:17%;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  border: 1px solid #f0f0f0;
+  color: #848181;
+}
+.henggousousuo .shoucangtu{
+  width: 5.3%;
+  height:37.7%;
+  position: absolute;
+  left: 77%;
+  top:17%;
+}
+.henggousousuo .shoucang{
+  position: absolute;
+  left: 76.5%;
+  top:56.6%;
+  color: #848181;
+  font-size: 0.8rem;
+}
+.henggousousuo .fenxiangtu{
+  width: 5.3%;
+  height:37.7%;
+  position: absolute;
+  left: 90%;
+  top:16%;
+}
+.henggousousuo .fenxiang{
+  position: absolute;
+  left: 90%;
+  top:56.6%;
+  color: #848181;
+  font-size: 0.8rem;
+}
+.henggouxuanze{
+  width: 100%;
+  height:15%;
+  display: flex;
+}
+.henggouxuanze .xuanze li{
+  flex-grow:1;
+}
+.henggouxuanze .xuanze li img{
+  width: 40%;
+  height:70%;
+  display: block;
+  margin:0 auto;
+  margin-top: 17%;
+}
+.henggouxuanze .xuanze li p{
+  display: block;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 7%;
+}
+.henggoutuijian{
+  width: 100%;
+  height: 8%;
+  position: relative;
+}
+.henggoutuijian .tuijian1{
+  position: absolute;
+  left: 30%;
+  top:10%;
+  width: 40%;
+  text-align: center; 
+}
+.henggoutuijian .tuijian11{
+  color: #949494;
+  font-size: 0.8rem;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 25%;
+  text-align: center;
+}
+.henggoutuijian .tuijianzuo{
+  width: 30%;
+  border-top: 1px solid #949494;
+  position: absolute;
+  left: 4%;
+  top:50%;
+}
+.henggoutuijian .tuijianyou{
+  width: 30%;
+  border-top: 1px solid #949494;
+  position: absolute;
+  right: 4%;
+  top:50%;
+}
+.henggoucontext{
+  width: 100%;
+  height: 35.5%;
+  display: flex;
+}
+.henggoucontext .tu-zuo{
+  flex-grow:1;
+}
+.henggoucontext .tu-you{
+  flex-grow:1;
+}
+.henggoucontext .tu-zuo img{
+  width:92%;
+  height:25%;
+  display: block;
+  margin-left: 5%;
+}
+.henggoucontext .tu-you img{
+  width:92%;
+  height:25%;
+  display: block;
+  margin-left: 1.7%; 
+} 
+.henggoucontext .tu-zuo .xianjia{
+  display: inline-block;
+  margin-top: 3%;
+  margin-left: 4%;
+  color: #ef6390;
+  font-size: 0.9rem;
+}
+.henggoucontext .tu-zuo .biaojia{
+  display: inline-block;
+  margin-top: 3%;
+  margin-left: 4%;
+  color: #949494;
+  font-size: 0.7rem;
+  text-decoration: line-through;
+}
+.henggoucontext .tu-zuo .shouchu{
+  display: inline-block;
+  margin-left: 5%;
+  margin-top: 3%;
+  color: #949494;
+  font-size: 0.7rem;
+}
+.henggoucontext .tu-zuo .fan{
+  display: inline-block;
+  width: 12%;
+  background: #ef6390;
+  border-radius: 3px;
+  margin-top:3%;
+  margin-left:1%;
+  font-size: 0.65rem;
+  text-align: center;
+  color: #fff;
+}
+.henggoucontext .tu-zuo .li{
+  display: inline-block;
+  margin-top: 4%;
+  font-size: 0.7rem;
+  color: #ef6390;
+}
+.henggoucontext .tu-zuo .qukan{
+  display: inline-block;
+  width: 25%;
+  margin-left:2%;
+  font-size: 0.79rem;
+  color: #fff;
+  background: #ef6390;
+  text-align: center;
+  border-radius: 2px;
+}
+.henggoucontext .tu-you .xianjia{
+  display: inline-block;
+  margin-top: 3%;
+  margin-left: 4%;
+  color: #ef6390;
+  font-size: 0.9rem;
+}
+.henggoucontext .tu-you .biaojia{
+  display: inline-block;
+  margin-top: 3%;
+  margin-left: 4%;
+  color: #949494;
+  font-size: 0.7rem;
+  text-decoration: line-through;
+}
+.henggoucontext .tu-you .shouchu{
+  display: inline-block;
+  margin-left: 5%;
+  margin-top: 3%;
+  color: #949494;
+  font-size: 0.7rem;
+}
+.henggoucontext .tu-you .fan{
+  display: inline-block;
+  width: 12%;
+  background: #ef6390;
+  border-radius: 3px;
+  margin-top:3%;
+  margin-left:1%;
+  font-size: 0.65rem;
+  text-align: center;
+  color: #fff;
+}
+.henggoucontext .tu-you .li{
+  display: inline-block;
+  margin-top: 4%;
+  font-size: 0.7rem;
+  color: #ef6390;
+}
+.henggoucontext .tu-you .qukan{
+  display: inline-block;
+  width: 25%;
+  margin-left:2%;
+  font-size: 0.79rem;
+  color: #fff;
+  background: #ef6390;
+  text-align: center;
+  border-radius: 2px;
+}
+.henggoutiao{
+  width: 100%;
+  height: 2.4%;
+  background: #d6d6d6;
+}
+/* 特卖 */
+.henggoutemai{
+  width: 94.3%;
+  height: 24%;
+  margin:0 2.8% 4% 2.8%;
+  position: relative;
+}
+.henggoutemai .temaipin .tutu{
+  width: 44%;
+  height:95% ;
+}
+.henggoutemai .diyi2{
+  height:60%;
+  position: absolute;
+  left:48% ;
+  top:0; 
+}
+.henggoutemai .neirong{
+  width: 98%;
+  height: 50%;
+  display: block;
+  font-size: 0.85rem;
+}
+.henggoutemai .dier2{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top:100%;
+}
+.henggoutemai .temaipin .xianjia{
+  display: inline-block;
+  margin-top: 5%;
+  font-size: 0.9rem;
+  color: #ef6390;
+}
+.henggoutemai .temaipin .biaojia{
+  display: inline-block;
+  text-decoration: line-through;
+  font-size: 0.7rem;
+  color: #949494;
+}
+.henggoutemai .temaipin .shouchu{
+  display: inline-block;
+  color: #949494;
+  font-size: 0.7rem;
+}
+.henggoutemai .temaipin .fan{
+  width: 10%;
+  text-align: center;
+  display: inline-block;
+  font-size: 0.7rem;
+  background: #ef6390;
+  border-radius: 3px;
+  color: #fff;
+  margin-left: 1%;
+}
+.henggoutemai .temaipin .li{
+  width: 8%;
+  display: inline-block;
+  font-size: 0.6rem; 
+  color: #ef6390;
+}
+.henggoutemai .temaipin .gouwuche1{
+  width: 12%;
+  height: 40%;
+  display: block;
+  position: absolute;
+  left: 82%;
+  top: 40%;
+  font-size: 0.7rem; 
+}
+/* 填充 */
+.henggoutian{
+  width: 100%;
+  height: 11%;
+}
+/* 底部 */
+.henggoudibu{
+  width: 100%;
+  height: 10.3%;
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  border-top:1px solid #d6d6d6; 
+}
+.henggoudibu .dibu li{
+  flex-grow:1;
+} 
+.henggoudibu .dibu img{
+  width: 30%;
+  height: 25%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 10%;
+}
+.henggoudibu .dibu p{
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 7%;
+}
+@media(max-width: 350px){
+ .henggou,.muying,.shoucang,.fenxiang,.xuanze li p{
+  font-size: 0.6rem;
+ }
+ .yue{
+  width: 18%;
+  height: 26.3%;
+  position: absolute;
+  right: 4%;
+  top:43%;
+  font-size: 0.68rem;
+  color: #fff;
+  text-align: center;
+}
+.xianjin{
+  width: 18%;
+  position: absolute;
+  right:4% ;
+  font-size: 0.6rem;
+}
+.tuijian11{
+  bottom:10%;
+}
+.context .tu-zuo .xianjia,.context .tu-you .xianjia{
+ font-size: 0.6rem;
+}
+.tu-zuo .qukan{
+  font-size: 0.5rem;
+  margin-left: 0;
+}
+}

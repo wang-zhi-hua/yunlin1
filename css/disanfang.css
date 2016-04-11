@@ -1,0 +1,169 @@
+ul,li,h1,h2,h3,h4,h5,h6,p,a{
+	margin:0;
+	padding:0;
+	list-style: none;
+	font-weight: normal;
+	text-decoration: none;
+}
+body{
+   font-family:"Myriad Set Pro","微软雅黑";
+   margin:0;
+   font-size:16px;
+   background: #f0f0f2;
+}
+.header{
+	width: 100%;
+	height:11.6%;
+	background: #000;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.fanhui{
+	position: absolute;
+	left: 3.1%;
+	top: 48%;
+    font-size: 1rem;
+    color: #fff;
+}
+.denglu{
+    position: absolute;
+	left: 41.6%;
+	top: 43.1%;
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+}
+.denglu p:last-child{
+	font-size: 0.9rem;
+}
+.chongshi{
+	position: absolute;
+	right:3.1%;
+	top:48%;
+	font-size: 1rem;
+	color: #fff;
+}
+.content{
+	width: 100%;
+	height: 19.2%;
+	position: absolute;
+	left:0; 
+	top:11.6%;
+	background: #fff;
+}
+.logo{
+	width:46%;
+	height:48.4%;
+	display: block;
+	margin:7% auto;
+}
+#mami{
+	width:40%;
+	height:6%;
+	position: absolute;
+	left: 30%;
+	top: 73%;
+	color:#e55485;
+	text-align: center;
+	font-size: 1rem;
+}
+.huode{
+	position: absolute;
+	left: 5.6%;
+	top:32%;
+	font-size: 0.96rem;
+}
+.quanxian{
+	position: absolute;
+	left:5.6%;
+	top: 36.8%;
+	color: #8e8e8e;
+	font-size: 0.96rem;
+}
+.denglu1{
+	height: 6.6%;
+	width: 84.2%;
+	position: absolute;
+	left: 7.8%;
+	top:48%;
+	border: 1px solid #5fcc00;
+	background: #5fcc00;
+	color: #fff;
+	font-size: 1rem;
+}
+@media (max-width:330px){
+	.fanhui,.chongshi{
+		font-size: 0.8rem;
+	}
+    .denglu{
+	    position: absolute;
+		left: 40.6%;
+		top: 40.1%;
+	    font-size: 0.9rem;
+	    color: #fff;
+	    text-align: center;
+    }
+    .denglu p:last-child{
+	    font-size: 0.8rem;
+    }
+    #mami{
+    	font-size: 0.8rem;
+    }
+    .huode,.quanxian{
+    	font-size: 0.8rem;
+    }
+    .denglu1{
+		height: 5.8%;
+		width: 84.2%;
+		position: absolute;
+		left: 7.8%;
+		top:48%;
+		border: 1px solid #5fcc00;
+		background: #5fcc00;
+		color: #fff;
+		font-size: 0.84rem;
+}
+}
+@media(min-width:600px){
+   .fanhui,.chongshi{
+		font-size: 1.4rem;
+	}
+    .denglu{
+	    position: absolute;
+		left: 42.8%;
+		top: 40.1%;
+	    font-size: 1.6rem;
+	    color: #fff;
+	    text-align: center;
+    }
+    .denglu p:last-child{
+	    font-size: 1.4rem;
+    }
+    #mami{
+    	font-size: 1.3rem;
+    	position: absolute;
+		left: 30%;
+		top: 78%;
+    }
+    .logo{
+		width:40%;
+		height:45%;
+		display: block;
+		margin:6.6% auto;
+    }
+    .huode,.quanxian{
+    	font-size: 1.3rem;
+    }
+    .denglu1{
+		height: 5.8%;
+		width: 84.2%;
+		position: absolute;
+		left: 7.8%;
+		top:48%;
+		border: 1px solid #5fcc00;
+		background: #5fcc00;
+		color: #fff;
+		font-size: 1.25rem;
+}
+}

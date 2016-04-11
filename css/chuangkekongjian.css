@@ -1,0 +1,263 @@
+body{
+  font-family: "微软雅黑";
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background: #f0f0f2;
+}
+ul,li,h1,h2,h3,h4,h5,h6,p,a{
+  margin:0;
+  padding:0;
+  list-style: none;
+  font-weight: normal;
+  text-decoration: none;
+}
+.dingbu{
+  width:100%;
+  height:8%;
+  position: fixed;
+  left: 0;
+  top:0;
+  background: #eb4d7e;
+
+}
+.dingbu1{
+  width: 92%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  color: #fff;
+  font-size: 0.8rem;
+}
+.dingbu11{
+  width: 40%; 
+  position: absolute;
+  left: 30%;
+  top:35%; 
+  text-align: center;
+}
+.dingbu12{
+  position: absolute;
+  right: 0;
+  top:35%;
+}
+.tianchong{
+  width: 100%;
+  height: 8%;
+}
+.shouyi{
+  width: 100%;
+  height: 11.5%;
+  background: #fff;
+  font-size: 0.9rem;
+}
+.shouyi1{
+  width: 92%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.leiji{
+  width: 40%;
+  height: 50%;
+}
+.jine{
+  width: 40%;
+  height: 50%;
+  color: #eb4d7e;
+}
+.kuozhan{
+  width:4% ;
+  height:20%;
+  position: absolute;
+  right: 0;
+  top:40%;
+}
+.xiaoshoue{
+  width: 100%;
+  height:29.9%;
+  background: #fff;
+  margin-top: 2.5%;
+  font-size: 0.8rem;
+
+}
+.leijie{
+  width: 100%;
+  height:33%;
+  display: flex;  
+  border-bottom:1px solid #f0f0f2; 
+}
+.leijie li{
+  flex-grow:1;
+  text-align: center;
+  margin-top: 3%;
+}
+.leijie li span{
+  display: block;
+  margin-top: 5%;
+}
+.zong{
+  width: 100%;
+  height: 19.1%;
+  text-align: center;
+}
+.zong li{
+  display: inline-block;
+  width: 32.2%;
+  margin-top: 2.5%;
+}
+.xiaoshoues{
+  width: 100%;
+  height:46%;
+}
+.xiaoshoues li{
+  width: 100%;
+  height: 50%;
+}
+.xiaoshoues1 p{
+  width: 76%;
+  height: 100%;
+  margin-left: 7%;
+  display: inline-block;
+}
+.xiaoshoues2 span{
+  display: inline-block;
+}
+.xiaoshoues1 img{
+  margin-left: 3%;
+  width: 3.5%;
+  height: 30%;
+}
+.tuiguang{
+  width: 100%;
+  height: 23.7%;
+  margin-top: 3%;
+  background: #fff;
+  position: relative;
+}
+.tuiguang ul{
+  width: 100%;
+  height: 33.3%;
+  font-size: 0.8rem;
+  position: relative;
+}
+.xiaoxitu{
+  width: 6.3%;
+  height: 47%;
+  position: absolute;
+  left: 3%;
+  top:27%;
+}
+.tixing{
+  display: inline-block;
+  margin-left: 13%;
+  margin-top: 4%;
+}
+.xiaofei{
+  position: absolute;
+  left: 33%;
+  top:27%;
+  margin-left: 38%;
+  color: #eb4d7e;
+}
+.fanhuizhi1{
+  width: 3.5%;
+  height: 26%;
+  display: inline-block; 
+  margin-left: 63%;
+}
+.tuiguang span{
+  width: 100%;
+  border-bottom: 1px solid #f0f0f2; 
+  position: absolute;
+  top:33.3%;
+  left: 0;
+}
+/* 填充 */
+.tian{
+  width: 100%;
+  height: 11%;
+}
+/* 底部 */
+.dibu{
+  width: 100%;
+  height: 10.3%;
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  border-top:1px solid #d6d6d6; 
+}
+.dibu li{
+  flex-grow:1;
+} 
+.dibu img{
+  width: 30%;
+  height: 25%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 10%;
+}
+.dibu p{
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 7%;
+}
+@media(max-width: 350px){
+  .dingbu1,.shouyi1,.leijie,.zong,.xiaoshoues1,.tuiguang ul,.dibu{
+    font-size: 0.6rem;
+  }
+  .dingbu1{
+    font-size: 0.65rem;
+  }
+}
+@media(min-width: 410px){
+   .shouyi1,.leijie,.zong,.xiaoshoues1,.tuiguang ul,.dibu{
+    font-size: 0.85rem;
+  }
+  .dingbu1{
+    font-size: 0.9rem;
+  }
+  .xiaofei{
+  position: absolute;
+  left: 33.5%;
+  top:27%;
+  margin-left: 38%;
+  color: #eb4d7e;
+}
+.fanhuizhi1{
+  width: 3.5%;
+  height: 26%;
+  display: inline-block; 
+  margin-left: 64%;
+}
+}
+@media (min-width: 600px) {
+   .shouyi1,.leijie,.zong,.xiaoshoues1,.tuiguang ul,.dibu{
+    font-size: 1.05rem;
+  }
+  .dingbu1{
+    font-size: 1.2rem;
+  }
+  .xiaoxitu{
+  width: 5.5%;
+  height: 47%;
+  position: absolute;
+  left: 3%;
+  top:27%;
+}
+  .xiaofei{
+  position: absolute;
+  left: 33.5%;
+  top:34%;
+  margin-left: 45%;
+  color: #eb4d7e;
+}
+.fanhuizhi1{
+  width: 3.5%;
+  height: 26%;
+  display: inline-block; 
+  margin-left: 69%;
+}
+}

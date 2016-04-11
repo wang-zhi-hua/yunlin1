@@ -1,0 +1,129 @@
+body{
+  font-family: "微软雅黑";
+  position: relative;
+  font-size: 9px;
+  margin: 0;
+  padding: 0;
+}
+ul,li,h1,h2,h3,h4,h5,h6,p,a{
+  margin:0;
+  padding:0;
+  list-style: none;
+  font-weight: normal;
+  text-decoration: none;
+}
+.dingbu{
+  width:100%;
+  height:8%;
+  position: fixed;
+  left: 0;
+  top:0;
+  background: #eb4d7e;
+}
+.dingbu input{
+   width: 90%;
+   height: 52%;
+   position: absolute;
+   left: 5%;
+   top:21%;
+   border-radius: 7px;
+   font-size: 0.85rem;
+   border: 0;
+}
+.dianzi{
+	width: 100%;
+	height: 8%;
+}
+#tabs{
+	width: 100%;
+	height:6.6%;
+	background: #f0f0f0; 
+	display: flex;
+}
+.tab{
+	flex-grow:1;
+	text-align: center;
+	font-size: 0.85rem;
+}
+.text1{
+	width: 100%;
+	height: 38%;
+}
+.text11{
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+}
+.text12{
+	width: 100%;
+	height: 15%;
+	position: relative;
+	font-size: 0.85rem;
+}
+.text12 p{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.text12 span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.tu{
+	width: 100%;
+	height:82.5%;
+	margin-top: 2%;
+	
+}
+.tu img{
+	display: block;
+	float: left;
+	width: 24.3%;
+	height: 49%;
+	border: 0.5px solid #f0f0f0;
+}
+/* 填充 */
+.tian{
+  width: 100%;
+  height: 12%;
+}
+/* 底部 */
+.dibu{
+  width: 100%;
+  height: 10.3%;
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  border-top:1px solid #d6d6d6; 
+}
+.dibu li{
+  flex-grow:1;
+} 
+.dibu img{
+  width: 30%;
+  height: 25%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 10%;
+}
+.dibu p{
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 7%;
+}
+@media (min-width:660px ) {
+  .tab,.text12,.dibu p{
+  	font-size: 1.1rem;
+  }
+}
+@media (max-width:350px ) {
+  .tab,.text12,.dibu p{
+  	font-size: 0.75rem;
+  }
+  .dingbu input{
+  	font-size: 0.75rem;
+  }
+}

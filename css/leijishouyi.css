@@ -1,0 +1,85 @@
+body{
+  font-family: "微软雅黑";
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background: #f0f0f2;
+}
+ul,li,h1,h2,h3,h4,h5,h6,p,a{
+  margin:0;
+  padding:0;
+  list-style: none;
+  font-weight: normal;
+  text-decoration: none;
+}
+.dingbu{
+  width:100%;
+  height:8%;
+  position: fixed;
+  left: 0;
+  top:0;
+  background: #eb4d7e;
+
+}
+.dingbu1{
+  width: 92%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  color: #fff;
+  font-size: 0.8rem;
+}
+.dingbu11{
+  width: 40%; 
+  position: absolute;
+  left: 30%;
+  top:35%; 
+  text-align: center;
+}
+.dingbu12{
+  position: absolute;
+  right: 0;
+  top:35%;
+}
+.tianchong{
+  width: 100%;
+  height: 8%;
+}
+.shouyi{
+  width: 100%;
+  height: 11.5%;
+  background: #fff;
+  font-size: 0.9rem;
+}
+.shouyi1{
+  width: 92%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.leiji{
+  width: 40%;
+  height: 50%;
+}
+.jine{
+  width: 40%;
+  height: 50%;
+  color: #eb4d7e;
+}
+.xiaoshoue{
+  width: 100%;
+  height:29.9%;
+  background: #fff;
+  margin-top: 2.5%;
+  font-size: 0.8rem;
+}
+.zong{
+  width: 100%;
+  height: 19.1%;
+  text-align: center;
+}
+.zong li{
+  display: inline-block;
+  width: 32.2%;
+  margin-top: 2.5%;
+}

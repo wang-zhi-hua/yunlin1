@@ -1,0 +1,129 @@
+body{
+  font-family: "微软雅黑";
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background: #f0f0f2;
+}
+ul,li,h1,h2,h3,h4,h5,h6,p,a{
+  margin:0;
+  padding:0;
+  list-style: none;
+  font-weight: normal;
+  text-decoration: none;
+}
+.dingbu{
+  width:100%;
+  height:8%;
+  position: fixed;
+  left: 0;
+  top:0;
+  background: #eb4d7e;
+
+}
+.dingbu1{
+  width: 92%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  color: #fff;
+  font-size: 0.8rem;
+}
+.dingbu11{
+  width: 40%; 
+  position: absolute;
+  left: 30%;
+  top:35%; 
+  text-align: center;
+}
+.dingbu12{
+  position: absolute;
+  left: 0;
+  top:35%;
+}
+.tianchong{
+  width: 100%;
+  height: 8%;
+}
+.zhifu{
+  width: 100%;
+  height:8.6%;
+  text-align: center;
+}
+.context{
+  width: 100%;
+  height: 16.4%;
+  background: #fff;
+  position: relative;
+  font-size: 0.8rem;
+}
+.xian{
+  width: 100%;
+  border-top: 1px solid #d2d2d2;
+  position: absolute;
+  left: 0;
+  top:50%;
+}
+.context ul{
+  width: 100%;
+  height: 100%;
+}
+.zijin{
+  width: 92%;
+  height: 50%;
+  margin-left: 4%;
+  position: relative;
+}
+.zijin p{
+  display: block;
+  position: absolute;
+  left: 0;
+  top:30%;
+}
+.zijin span{
+  position: absolute;
+  right: 0;
+  top:30%;
+}
+.shijian{
+  width: 92%;
+  height: 50%;
+  margin-left: 4%;
+  position: relative;
+}
+.shijian p{
+  display: block;
+  position: absolute;
+  left: 0;
+  top:30%;
+}
+.shijian span{
+  position: absolute;
+  right: 0;
+  top:30%;
+}
+.wancheng{
+  width: 92%;
+  height: 6.2%;
+  margin-left: 4%;
+  margin-top: 16%;
+  background: #eb4d7e;
+  color: #fff;
+  text-align: center;
+  font-size: 0.8rem;
+}
+@media(min-width: 350px){
+  .dingbu1,.zhifu,.context,.wancheng{
+    font-size: 0.95rem;
+  }
+}
+@media(min-width: 450px){
+  .dingbu1,.zhifu,.context,.wancheng{
+    font-size: 1.05rem;
+  }
+}
+@media(min-width: 550px){
+  .dingbu1,.zhifu,.context,.wancheng{
+    font-size: 1.18rem;
+  }
+}
