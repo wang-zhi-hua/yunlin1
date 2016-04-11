@@ -458,7 +458,7 @@ ul,li,h1,h2,h3,h4,h5,h6,p,a{
 .henggoucontext{
   width: 100%;
   height: 45.5%;
-  margin-top: 5%;
+  margin-top: 3%;
   display: flex;
 }
 .henggoucontext .tu-zuo{
@@ -586,7 +586,7 @@ ul,li,h1,h2,h3,h4,h5,h6,p,a{
 .henggoutemai{
   width: 94.3%;
   height: 24%;
-  margin:0 2.8% 4% 2.8%;
+  margin:2% 2.8% 4% 2.8%;
   position: relative;
 }
 .henggoutemai .temaipin .tutu{
